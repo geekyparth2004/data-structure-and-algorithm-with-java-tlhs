@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Hello
+public class Typecasting
 {
     public static void main(String[] args)
     {
