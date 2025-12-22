@@ -7,5 +7,7 @@ public class User_Input{
         int n = sc.nextInt();
 
         System.out.println(n*n);
+
+        sc.close();
     }
 }

@@ -11,5 +11,7 @@ public class Typecasting
 
         System.out.println(n);
         System.out.println(s);
+
+        sc.close();
     }
 }

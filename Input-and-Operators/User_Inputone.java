@@ -30,5 +30,7 @@ public class User_Inputone {
         System.out.println(d);
         System.out.println(t);
 
+        sc.close();
+
     }
 }
