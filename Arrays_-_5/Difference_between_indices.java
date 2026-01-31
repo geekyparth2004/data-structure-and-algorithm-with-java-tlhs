@@ -1,0 +1,27 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+
+        int arr[] = new int[n];
+
+        for(int i = 0 ; i < n ; i++)
+        {
+            arr[i] = sc.nextInt(); 
+        }
+
+        int sume = 0;
+        int sumo = 0;
+
+        for(int i = 0 ; i < n ; i++)
+        {
+            if(i % 2 == 0) sume += arr[i];
+            else sumo += arr[i];
+        }
+
+        System.out.println(sume - sumo);
+    }
+}
